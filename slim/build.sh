@@ -8,4 +8,4 @@ docker cp ${container_id}:/go/bin/cow cow
 
 docker rm --force ${container_id}
 
-docker build --tag=dochang/cow:slim .
+docker build --tag=dochang/cow:slim --no-cache .
