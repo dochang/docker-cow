@@ -7,7 +7,7 @@ export COW_VERSION=0.9.6
 export GOPATH=/go
 export PATH=$GOPATH/bin:/usr/local/go/bin:$PATH
 
-apk add --update-cache --virtual cow-dependencies git
+apk add --no-cache --virtual cow-dependencies git
 
 mkdir -p "${GOPATH}/src" "${GOPATH}/bin"
 
