@@ -2,7 +2,7 @@
 
 set -ex
 
-export COW_VERSION=0.9.6
+export COW_VERSION=0.9.7
 
 export GOPATH=/go
 export PATH=$GOPATH/bin:/usr/local/go/bin:$PATH
